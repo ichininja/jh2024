@@ -20,12 +20,6 @@ console.log("You have chosen " + ddOption);
     	pct_bjp = 1.195;
     	pct_jmm = 1.075;
 
-} else if (ddOption == 3) {
-console.log("You have chosen " + ddOption);
-	div_bjp = 1.15;
-    	pct_bjp = 1.3;
-    	pct_jmm = 0.9;
-
 }
 
     const jmm_2024 = document.getElementById('ipPCI').value;
