@@ -9,19 +9,19 @@ function updateOutput() {
     var pct_jmm = 0;
 
 if (ddOption == 1) {
-
+console.log(ddOption);
 	div_bjp = 1.08;
     	pct_bjp = 1.51;
     	pct_jmm = 1.40;
 
 } else if (ddOption == 2) {
-
+console.log(ddOption);
 	div_bjp = 1.112;
     	pct_bjp = 1.195;
     	pct_jmm = 1.075;
 
 } else if (ddOption == 3) {
-
+console.log(ddOption);
 	div_bjp = 1.15;
     	pct_bjp = 1.3;
     	pct_jmm = 0.9;
