@@ -2,10 +2,31 @@
 
 // Function to update the output with the value from the input field
 function updateOutput() {
-    // Get the value from the input field
-    const div_bjp = 1.08;
-    const pct_bjp = 1.51;
-    const pct_jmm = 1.40;
+    var ddOption = document.getElementById("ddOptions").value;
+
+    var div_bjp = 0;
+    var pct_bjp = 0;
+    var pct_jmm = 0;
+
+if (ddOption == 1) {
+
+	div_bjp = 1.08;
+    	pct_bjp = 1.51;
+    	pct_jmm = 1.40;
+
+} else if (ddOption == 2) {
+
+	div_bjp = 1.112;
+    	pct_bjp = 1.195;
+    	pct_jmm = 1.075;
+
+} else if (ddOption == 3) {
+
+	div_bjp = 1.15;
+    	pct_bjp = 1.3;
+    	pct_jmm = 0.9;
+
+}
 
     const jmm_2024 = document.getElementById('ipPCI').value;
 
