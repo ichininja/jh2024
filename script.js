@@ -7,21 +7,21 @@ function updateOutput() {
     var div_bjp = 0;
     var pct_bjp = 0;
     var pct_jmm = 0;
-console.log("You have chosen" + ddOption);
+console.log("You have chosen " + ddOption);
 if (ddOption == 1) {
-console.log("You have chosen" + ddOption);
+console.log("You have chosen " + ddOption);
 	div_bjp = 1.08;
     	pct_bjp = 1.51;
     	pct_jmm = 1.40;
 
 } else if (ddOption == 2) {
-console.log("You have chosen" + ddOption);
+console.log("You have chosen " + ddOption);
 	div_bjp = 1.112;
     	pct_bjp = 1.195;
     	pct_jmm = 1.075;
 
 } else if (ddOption == 3) {
-console.log("You have chosen" + ddOption);
+console.log("You have chosen " + ddOption);
 	div_bjp = 1.15;
     	pct_bjp = 1.3;
     	pct_jmm = 0.9;
