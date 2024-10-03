@@ -7,7 +7,7 @@ function updateOutput() {
     var div_bjp = 0;
     var pct_bjp = 0;
     var pct_jmm = 0;
-
+console.log("You have chosen" + ddOption);
 if (ddOption == 1) {
 console.log("You have chosen" + ddOption);
 	div_bjp = 1.08;
