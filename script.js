@@ -7,21 +7,20 @@ function updateOutput() {
     var div_bjp = 0;
     var pct_bjp = 0;
     var pct_jmm = 0;
-console.log("You have chosen " + ddOption);
+
 if (ddOption == 1) {
-console.log("You have chosen " + ddOption);
+
 	div_bjp = 1.08;
     	pct_bjp = 1.51;
     	pct_jmm = 1.40;
 
 } else if (ddOption == 2) {
-console.log("You have chosen " + ddOption);
-	div_bjp = 1.112;
-    	pct_bjp = 1.195;
-    	pct_jmm = 1.075;
+
+	div_bjp = 1.12;
+    	pct_bjp = 1.20;
+    	pct_jmm = 1.08;
 
 }
-
     const jmm_2024 = document.getElementById('ipPCI').value;
 
     bjp_2024 = jmm_2024*div_bjp;
